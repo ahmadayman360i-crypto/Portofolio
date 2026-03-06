@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+/* continuous animation */
+@keyframes scroll{
+    0%{
+        transform: translateX(60%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+/**/
+body {
+  /* Replace 'Urbanist' with 'Plus Jakarta Sans' */
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* For that professional "Premium" look: */
+h1, h2, h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em; /* This font looks great slightly tightened */
+}
+/**/
+
+body{
+    background-color:black;
+    padding: 0;
+    margin: 0;
+    color:aliceblue;
+     font-family: 'Urbanist', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size:18px;
+}
+.header{
+    margin:48px 10%;
+
+}
+.header-left{
+    float:left;
+}
+.header-right{
+    float:right;
+}
+.clear-float{
+    clear:both;
+}
+.logo{
+    display:inline-block;
+    padding: 8px;
+    color: aliceblue;
+    border-style: solid;
+    border-color:aliceblue;
+    border-radius:999px;
+
+
+}
+.logo span{
+    font-weight: 700px;
+}
+
+.header-left{
+    background-color:#000000;
+    border-radius: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.nav{
+    display: inline-block;
+    
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    display: inline;
+    margin:24px;
+}
+.nav a{
+    text-decoration: none;
+    color:aliceblue;
+    font-size:18px;
+}
+
+.header-right{
+    background-color:#000000;
+    border-radius : 24px;
+    padding-left : 16px;
+    padding-right: 16px;
+}
+.statue{
+    display:inline-block;
+    padding: 6px 12px;
+    border-radius: 12px;
+    background-color:#8c8c8c;
+    margin:8px 0px;
+}
+.st-icon{
+    display: inline-block;
+    margin: 2px 8px;
+    width:6px;
+    height: 6px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+.reachout{
+    display:inline-block;
+    margin-left:16px;
+    background-color: #ffffff;
+     padding:12px 18px;
+    border-radius: 12px;
+}
+.reachout span{
+    font-size:24px;
+    color:#000000;
+   
+}
+.reachout a{
+    color:#000000;
+}
+/*hero section*/
+.hero-section{
+    box-sizing:border-box;
+    text-align: center;
+    
+    background-image: url(./Img/hero-section-background.png);
+    background-size: cover;
+    background-size: 1158px 480px;
+    background-position: center;
+    height: auto;
+      background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(12px);
+    border:1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+    
+}
+.hero-section-content{
+    text-align: center;
+    margin: 32px 64px;
+    border-radius: 999px;
+    background-color: #000000;
+    text-align: center;
+
+  
+
+}
+.role{
+    display: inline-block;
+    background-color: #8c8c8c;
+    padding:8px 12px;
+    border-radius:24px;
+
+}
+.role span{
+    float: right;
+    margin:0px 12px;
+    font-size:16px;
+}
+.role svg{
+    float:left;
+    width:18px;
+    height:18px;
+    color:yellow;
+    margin: 0 12px;
+}
+
+.hero-section h1{
+    font-size:94px;
+    font-weight:400;
+
+}
+.hero-section p{
+    font-size:24px;
+    color:#AAAAAA;
+}
+.hero-section-content a{
+    font-size:24px;
+    padding:8px 16px;
+    margin:24px;
+    border-radius: 16px;
+}
+#primary{
+    color:#000000;
+    background-color: #ffffff;
+}
+#secondary{
+    background-color:#000000;
+    color: #ffffff;
+    border-style: solid;
+    border-color: #ffffff;
+}
+.trusted{
+    width:80%;
+    margin:48px  auto;
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:#222222;
+}
+.trusted p{
+    font-size:18px;
+    color:#ffffff;
+}
+
+.logos{
+    text-align: center;
+   margin: 48px 32px;
+   overflow:hidden;
+}
+.comp-logo{
+    float:left;
+      display:flex;
+    gap:80px;
+    width:max-content;
+    animation: scroll 3s linear infinite;
+}
+.comp-logo img{
+    
+    height:84px;
+    
+}
+.projects{
+    width:80%;
+    margin:48px  auto;
+    text-align: center;
+}
+.project-head{
+    width:30%;
+    float:left;
+    box-sizing: border-box;
+    text-align: left;
+    padding:1%;
+}
+.project-head .badge{
+   background-color: #222222;
+    width: 25%;
+    padding: 12px;
+    border-radius: 16px;
+    text-align: center;
+    
+    /* REMOVE float: left; */
+    display: inline-block;
+    vertical-align: middle;
+}
+.project-head h2{
+    font-size: 48px;
+    font-weight: 500;
+    color:#8c8c8c
+}
+
+.badge-line{
+   /* REMOVE float: left; */
+    display: inline-block;
+    vertical-align: middle;
+    
+    width: 60%;
+    height: 1px; /* Ensure you have a height set for the line */
+ 
+   
+    
+}
+.badge span{
+    font-size:16px;
+    margin:12px;
+
+}
+.project-content{
+    border-style: solid;
+    border-radius:24px;
+    border-color:#AAAAAA;
+    box-sizing: border-box;
+     width:70%;
+    float:left;
+    text-align: left;
+    padding:1%;
+}
+.project-content img{
+    width:100%;
+}
+.project-content h2{
+    font-size:32px;
+    font-weight:400;
+    float:left;
+    margin-bottom: 0%;
+}
+.project-content h3{
+    color:#aaaaaa;
+    font-size:24px;
+    font-weight:300;
+    float:right;
+    margin-bottom: 0%;
+}
+.project-content p{
+    width:60%;
+    font-size:18px;
+    float:left;
+}
+.project-content  .project-badge{
+    float:left;
+    margin-top: 18px;
+    width:40%;
+}
+.project-badge span{
+    padding:4px 24px;
+    border-style:solid;
+    border-radius: 24px;
+    border-color:#aaaaaa;
+    font-size:18px;
+    color:#aaaaaa;    
+}
+
+.project-head em{
+    color:#ffffff;
+}
+.project-content{
+    box-sizing: border-box;
+    padding:1%;
+
+}
